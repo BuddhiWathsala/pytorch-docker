@@ -1,5 +1,7 @@
 FROM nvidia/cuda:11.3.0-base-ubuntu20.04
 
+LABEL maintainer="b.wathsala.bw@gmail.com"
+
 RUN apt -y update
 RUN apt -y install python3.9
 RUN ln -sf /usr/bin/python3.9 /usr/bin/python3 
